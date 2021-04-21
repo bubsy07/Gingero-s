@@ -94,7 +94,7 @@ header {
 .navbar-brand h2{
     letter-spacing: 1px;
     font-size: 125%;
-    margin-left: 200px;
+    margin-left: 175px;
     margin-top: -22px;
     color: red;
     font-family: "Architects Daughter";
@@ -229,7 +229,7 @@ header {
 /*----------------------------------------menu jpeg / h2 */
 
 #menu {
-     
+    background: url("../images/fish.png") center center / cover no-repeat fixed;   
     text-align: center;
     background-color:white;
     margin: 0rem;
@@ -238,6 +238,7 @@ header {
     width: 100%;  
     
 }
+
 
 .menu-style {
     background-color: khaki;
