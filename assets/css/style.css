@@ -1,0 +1,590 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Oswald|Lato:300');
+
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Lato&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    border:0;
+}
+
+hr{
+    width: 70%;
+    
+    margin-left: auto;
+    margin-right: auto;  
+}
+
+h3{
+    text-align: center;
+    
+}
+
+h4 {
+    font-size: 100%;
+    color: #555555;
+}
+
+body{
+    font-family: Lato;
+    color: #555555;   
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+/*----------------------------------------Heading*/
+header {
+    margin: 0;
+}
+
+#nav-menu{
+    font-size: 100%;
+    list-style-type: none;
+    letter-spacing: 3px;
+}
+   
+#nav-menu li { 
+    margin-right: 8px;
+}
+
+#nav-menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#nav-menu a:hover{
+    border-bottom: 1px solid #777777;
+}
+
+/*------------------------------------------------------ Navbar */
+
+.navbar {
+    margin-bottom: 0;
+    width: 100%;
+    background-color: green;
+    border: 0;
+    position: fixed;
+    z-index:1;
+    padding: 30px 0px 0px 0px;
+    color: red;
+}
+
+.navbar .navbar-toggler {
+    border: 0;
+    margin-right: 10px;
+}
+
+.navbar-brand h1{
+    font-size: 400%;
+    margin-left: 25px;
+    margin-bottom: 0px;
+    color: red;
+    font-family: "Architects Daughter";
+}
+
+.navbar-brand h2{
+    letter-spacing: 1px;
+    font-size: 125%;
+    margin-left: 200px;
+    margin-top: -22px;
+    color: red;
+    font-family: "Architects Daughter";
+}
+
+@media screen and (max-width:800px) {
+.navbar {
+    -webkit-transform: translateY(50px);
+        -ms-transform: translateY(50px);
+            transform: translateY(50px);   
+}
+}
+
+/*----------------------------------------Home image*/
+
+#image-gingero{
+    height:100%;
+    width: 100%;
+    background: url("../images/rossini rest1.png") no-repeat center center;
+    -webkit-animation-name: rossini-zoom;
+            animation-name: rossini-zoom;
+    -webkit-animation-duration: 4s;
+            animation-duration: 4s;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    margin-top: 120px;
+}
+
+#home-image{
+    height:800px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    
+}
+@-webkit-keyframes rossini-zoom {
+    from{
+        -webkit-transform: scale(0.8);
+                transform: scale(0.8);
+    }
+    to{
+        -webkit-transform: scale(0.9);
+                transform: scale(0.9);
+    }
+}
+@keyframes rossini-zoom {
+    from{
+        -webkit-transform: scale(0.8);
+                transform: scale(0.8);
+    }
+    to{
+        -webkit-transform: scale(0.9);
+                transform: scale(0.9);
+    }
+}
+
+/*----------------------------------------Web alert*/
+
+.web-info {
+    text-align: center;
+    background-color: khaki;
+    border-color:khaki;
+    padding: 5px 15px;
+    margin-bottom: 10px;
+    border: 1px solid transparent;
+    border-radius: 0px;
+    width: 100%;
+    position: fixed;
+    z-index:2;
+    top: 0;
+}
+
+.web-info span {
+    text-align: center;
+    font-size: 100%;
+    text-transform: uppercase;
+    -webkit-animation:blinkingText 1.2s infinite;
+            animation:blinkingText 1.2s infinite;
+}
+
+@-webkit-keyframes blinkingText{
+    0%{     color: red;    }
+    49%{    color: red; }
+    60%{    color: transparent; }
+    99%{    color:transparent;  }
+    100%{   color: #000;    }
+}
+
+@keyframes blinkingText{
+    0%{     color: red;    }
+    49%{    color: red; }
+    60%{    color: transparent; }
+    99%{    color:transparent;  }
+    100%{   color: #000;    }
+}
+
+/*----------------------------------------about-me*/
+
+#about-me{
+    margin: 3px 0px;
+    text-align: center;
+    font-size: 100%;
+    color: #555555;
+    top: -10px;
+    position: relative;
+    padding: 5px 15px;
+    margin-bottom: 0px;
+    border: 1px solid transparent;   
+}
+
+#name{
+    font-size: 100%;
+    color: #555555;  
+}
+
+#about-me h2{
+  font-family: "Architects Daughter";
+  
+}
+
+#about-me h1{
+  font-family: "Architects Daughter";
+  font-size: 350%;
+}
+
+#about-me p{
+    width: 80%;
+    text-align: center;
+    margin-left: 10%;
+}
+
+/*----------------------------------------menu jpeg / h2 */
+
+#menu {
+     
+    text-align: center;
+    background-color:white;
+    margin: 0rem;
+    padding: 100px 80px 100px 80px;
+    height:auto;
+    width: 100%;  
+    
+}
+
+.menu-style {
+    background-color: khaki;
+    opacity: 90%; 
+    -moz-opacity: 0.5; 
+    -webkit-opacity: 0.5;
+
+    padding-top: 50px;  
+    color: #555555;   
+}
+
+#menu h2, h4, h3 {
+     text-align: center; 
+     font-family: "Architects Daughter";  
+     color: #555555;  
+}
+#menu h3 {
+    color: #555555;  
+}
+
+/*---------------menu-------------------------------------*/
+
+ul li{
+list-style-type: none;
+}
+
+#come-on {
+    margin: 20px 0;
+    text-align: center;
+}
+
+/*---------------gallery-------------------------------------*/
+ .carousel-inner img {
+    width: 100%;
+    height: 100%;
+  }
+
+ .carousel{
+     padding-top: 200px;
+ }
+
+ .carousel-control-next, .carousel-control-prev {
+     bottom: 25%;
+     top: 50%;
+ }
+
+/*---------------reviews-------------------------------------*/
+
+#reviews{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 10px;
+    text-align: center;
+    padding: 20px;
+    margin-left: 0px;
+}
+
+#reviews div {
+    color: #555555;
+    background-color: rgba(250, 248, 248, 0.8);
+    width: 32%;
+    height: 100%;
+    float: left;
+    text-align: center;
+    padding: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#reviews h2, h4 {
+    color: #555555;
+    text-align: center;
+    font-family: "Architects Daughter";
+}
+
+#reviews h3  {
+    color: #555555;
+    text-align: center;
+    font-family: "Architects Daughter";
+}
+
+
+@media screen and (max-width:800px) {
+#reviews div {
+    width: 100%;
+    margin: 0px;
+}
+}
+
+/*---------------contact-------------------------------------*/
+
+#gingero-contact {
+	margin-bottom: 10px;
+    background: url("../images/beach2.jpg") center center / cover no-repeat fixed;  
+    text-align: center;
+    margin-bottom: 0rem;
+    background-color: rgb(247, 246, 241, 0.6);
+    margin: 10px 0px 10px 0px;
+    color: white;
+    width: 100%;
+    height: auto;
+
+}
+#gingero-contact h1 { 
+    padding-top: 10px;
+    font-size: 225%;
+    font-family: "Architects Daughter";
+}
+
+#gingero-contact h2, h3 {
+    color: white;
+    font-family: "Architects Daughter";
+}
+
+#gingero-contact a {
+    color: white;
+}
+
+#gingero-contact hr {
+color: white;
+}
+
+#gingero-style hr {
+color: white;
+}
+
+ul li{
+list-style-type: none;
+}
+
+/*---------------map-------------------------------------*/
+
+/* map */
+#map-wrap {
+    height: 200px;
+    margin-bottom: 10px;   
+}
+
+#gingero-map {
+    height: 100%;
+    width: 100%;
+    border: none;
+}
+
+/*---------------footer-------------------------------------*/
+
+.center {
+margin: auto;
+}
+
+#gingero-footer-details{
+    background-color: khaki;
+    text-align: center;
+}
+
+#gingero-footer-details p, h2{
+        color: #555555;
+        font-family: "Architects Daughter";
+}
+
+#gingero-footer-details a i {
+   font-size: 150%;
+   margin-right: 5px;
+   -webkit-box-align: center;
+       -ms-flex-align: center;
+           align-items: center;
+    color: #555555;
+}
+
+#gingero-footer-details a {
+   margin-right: 5px;
+   -webkit-box-align: center;
+       -ms-flex-align: center;
+           align-items: center;
+    color:blue;
+     font-family: "Architects Daughter";
+     font-size: 12px;
+font-size: 100%;
+     
+}
+#gingero-footer-details a i:hover {
+   color: blue;
+}
+
+/*---------------form-------------------------------------*/
+
+form {
+    width: auto;
+    padding: 10px 0px 40px 0px;
+	border-radius: 8px;
+	margin: 20px auto;
+    background-color: khaki;
+    position: relative;
+    top: 150px;
+    border: #555555;
+    border-width: 1px;
+    text-align: center;
+    color: #555555;
+    font-family: "Architects Daughter";
+}
+
+.block-label {
+	display: block;
+}
+
+fieldset {
+    border: none;
+    margin-top: 20px;
+    text-align: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    display: block;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;    
+}
+
+@media screen and (max-width:800px) {
+fieldset div {
+    width: 90%;
+    margin: 0px;
+}
+}
+
+@media screen and (max-width:800px) {
+fieldset input {
+    width: 100%;
+    margin: 0px;
+}
+}
+
+@media screen and (max-width:800px) {
+fieldset textarea {
+    width: 100%;
+    margin: 0px;
+}
+}
+
+input[type=submit] {
+	margin-top: 20px;
+	margin-left: 0.75rem;
+	padding: 0.75rem;
+	background-color: #555555;
+	color: white;
+	border: none;
+    border-radius: 5px;
+    text-align: center;
+    width: 20%;
+}
+
+	
+input[type=text],
+input[type=email]
+ {
+    height: 30px;
+    width: 50%;
+    padding-left: 10px;
+    margin: 0 auto;
+    font-size: 1rem;
+}
+
+.block-label {
+	display: block;
+}
+
+legend {
+	font-size: large;
+	font-weight: 600;
+	text-transform: uppercase;
+	margin: 20px 0 10px 0;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+label {
+    margin: 10px 15px 5px 0;
+}
+
+.checkboxes-box div {
+    margin-top: 15px;
+}
+
+.name-email-style{
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: auto;
+    text-align: center;
+    padding-left: 20px;
+    margin: 0px;
+}
+
+.btn-style{
+    margin-bottom: 10px;
+    border-bottom-color: white;
+    border-bottom-style: solid;
+    border-bottom-width: 10px;
+    padding-bottom: 20px;
+    width: 100%;
+}
+
+#starter-choice, #pizza-choice, #pasta-choice, #mains-choice{
+margin-left: 20px; 
+padding-left: 10px;
+}
+
+
+
+/*-----Contact Form Response Messages-*/
+#mail-ok,
+#mail-nok {
+    
+    text-align: center;
+    display: none;
+}
+
+#mail-ok.visible,
+#mail-nok.visible {
+    
+    display: flex;
+    text-align: center;
+    font-size: 1.625rem;
+    
+}
+
+
+
+textarea.form-control{
+      width: 50%;
+    padding-left: 10px;
+	margin: 0 auto;
+}
