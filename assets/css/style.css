@@ -243,8 +243,8 @@ header {
 .menu-style {
     background-color: khaki;
     opacity: 90%; 
-    -moz-opacity: 0.5; 
-    -webkit-opacity: 0.5;
+    -moz-opacity: 0.8; 
+    -webkit-opacity: 0.8;
 
     padding-top: 50px;  
     color: #555555;   
