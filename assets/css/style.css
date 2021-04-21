@@ -229,7 +229,7 @@ header {
 /*----------------------------------------menu jpeg / h2 */
 
 #menu {
-    background: url("../images/fish.png") center center / cover no-repeat fixed;   
+    background: url("../images/fish.png") center center / cover no-repeat scroll;   
     text-align: center;
     background-color:white;
     margin: 0rem;
@@ -335,7 +335,7 @@ list-style-type: none;
 
 #gingero-contact {
 	margin-bottom: 10px;
-    background: url("../images/beach2.jpg") center center / cover no-repeat fixed;  
+    background: url("../images/beach2.jpg") center center / cover no-repeat scroll;  
     text-align: center;
     margin-bottom: 0rem;
     background-color: rgb(247, 246, 241, 0.6);
