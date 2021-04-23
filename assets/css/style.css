@@ -589,3 +589,8 @@ textarea.form-control{
     padding-left: 10px;
 	margin: 0 auto;
 }
+
+/*------Mouse Styling-*/
+#Appetizers {
+    cursor: pointer;
+}
