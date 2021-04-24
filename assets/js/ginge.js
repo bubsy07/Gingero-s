@@ -8,6 +8,7 @@ $("#Appetizers h3").mouseleave(function () {
 
 
 $("#Appetizers h3").click(function () {
-$("ul").slideToggle("slow"); 
-        $("#contact-form").hide("slow");   
+$(this).sibling().slideToggle("slow"); 
+          
     });
+
