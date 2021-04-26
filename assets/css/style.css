@@ -113,7 +113,7 @@ header {
 #image-gingero{
     height:100%;
     width: 100%;
-    background: url("../images/rossini rest1.png") no-repeat center center;
+    background: url("../images/gingero.png") no-repeat center center;
     -webkit-animation-name: rossini-zoom;
             animation-name: rossini-zoom;
     -webkit-animation-duration: 4s;
@@ -124,7 +124,7 @@ header {
 }
 
 #home-image{
-    height:800px;
+    height:900px;
     width: 100%;
     overflow: hidden;
     position: relative;
@@ -349,7 +349,7 @@ list-style-type: none;
 
 #gingero-contact {
 	margin-bottom: 10px;
-    background: url("../images/beach2.jpg") center center / cover no-repeat scroll;  
+    background: url("../images/gingero_log.png") center center / cover no-repeat scroll;  
     text-align: center;
     margin-bottom: 0rem;
     background-color: rgb(247, 246, 241, 0.6);
