@@ -217,7 +217,12 @@ header {
     color: red;  
 }
 
-#about-me h2{
+#about-me p{
+    font-size: 125%;
+      
+}
+
+out-me h2{
   font-family: "Architects Daughter";
   
 }
