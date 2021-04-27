@@ -155,8 +155,8 @@ header {
 
 .web-info {
     text-align: center;
-    background-color: khaki;
-    border-color:khaki;
+    background-color: lightgrey;
+    border-color: lightgrey;
     padding: 5px 15px;
     margin-bottom: 10px;
     border: 1px solid transparent;
@@ -171,6 +171,13 @@ header {
     text-align: center;
     font-size: 100%;
     text-transform: uppercase;
+    -webkit-animation:blinkingText 1.2s infinite;
+            animation:blinkingText 1.2s infinite;
+}
+
+#come-on span {
+    text-align: center;
+    font-size: 100%;
     -webkit-animation:blinkingText 1.2s infinite;
             animation:blinkingText 1.2s infinite;
 }
@@ -229,11 +236,11 @@ header {
 /*----------------------------------------menu jpeg / h2 */
 
 #menu {
-    background: url("../images/fish.png") center center / cover no-repeat scroll;   
+    background: url("../images/coffee.png") center center / cover no-repeat scroll;   
     text-align: center;
     background-color:white;
     margin: 0rem;
-    padding: 100px 80px 100px 80px;
+    padding: 150px 120px 150px 120px;
     height:auto;
     width: 100%;  
     
@@ -241,13 +248,14 @@ header {
 
 
 .menu-style {
-    background-color: khaki;
+    background-color: white;
     opacity: 90%; 
     -moz-opacity: 0.8; 
     -webkit-opacity: 0.8;
 
     padding-top: 50px;  
     color: #555555;   
+    font-family: "Architects Daughter"; 
 }
 
 #menu h2, h4, h3 {
@@ -259,12 +267,22 @@ header {
     color: red;  
 }
 
-#menu h4 {
+#menu h4, p {
     color: red;  
+}
+
+#menu p {
+    color: red;  
+    font-family: "Architects Daughter"; 
 }
 
 #menu li {
     color: green; 
+    font-family: "Architects Daughter"; 
+}
+
+#dessert p {
+   color: green; 
 }
 
 /*---------------menu-------------------------------------*/
@@ -331,7 +349,7 @@ list-style-type: none;
     font-family: "Architects Daughter";
 }
 
-#reviews h4  {
+#reviews h4, p  {
     color: #555555;
     text-align: center;
     font-family: "Architects Daughter";
@@ -349,18 +367,18 @@ list-style-type: none;
 
 #gingero-contact {
 	margin-bottom: 10px;
-    background: url("../images/gingero_log.png") center center / cover no-repeat scroll;  
+    background: url("../images/heart.png") center center / cover no-repeat scroll;  
     text-align: center;
     margin-bottom: 0rem;
     background-color: rgb(247, 246, 241, 0.6);
     margin: 10px 0px 10px 0px;
     color: white;
     width: 100%;
-    height: auto;
+    height: 800px;
 
 }
 #gingero-contact h1 { 
-    padding-top: 10px;
+    padding-top: 150px;
     font-size: 225%;
     font-family: "Architects Daughter";
 }
@@ -433,7 +451,7 @@ margin: auto;
     color:red;
      font-family: "Architects Daughter";
      font-size: 12px;
-font-size: 150%;
+font-size: 100%;
      
 }
 #gingero-footer-details a i:hover {
@@ -443,179 +461,21 @@ font-size: 150%;
 #gingero-footer-details a:hover {
    color:blue;
 }
-/*---------------form-------------------------------------*/
-
-form {
-    width: auto;
-    padding: 10px 0px 40px 0px;
-	border-radius: 8px;
-	margin: 20px auto;
-    background-color: khaki;
-    position: relative;
-    top: 150px;
-    border: #555555;
-    border-width: 1px;
-    text-align: center;
-    color: #555555;
-    font-family: "Architects Daughter";
-}
-
-.block-label {
-	display: block;
-}
-
-fieldset {
-    border: none;
-    margin-top: 20px;
-    text-align: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    display: block;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;    
-}
-
-@media screen and (max-width:800px) {
-fieldset div {
-    width: 90%;
-    margin: 0px;
-}
-}
-
-@media screen and (max-width:800px) {
-fieldset input {
-    width: 100%;
-    margin: 0px;
-}
-}
-
-@media screen and (max-width:800px) {
-fieldset textarea {
-    width: 100%;
-    margin: 0px;
-}
-}
-
-input[type=submit] {
-	margin-top: 20px;
-	margin-left: 0.75rem;
-	padding: 0.75rem;
-	background-color: #555555;
-	color: white;
-	border: none;
-    border-radius: 5px;
-    text-align: center;
-    width: 20%;
-}
-
-	
-input[type=text],
-input[type=email]
- {
-    height: 30px;
-    width: 50%;
-    padding-left: 10px;
-    margin: 0 auto;
-    font-size: 1rem;
-}
-
-.block-label {
-	display: block;
-}
-
-legend {
-	font-size: large;
-	font-weight: 600;
-	text-transform: uppercase;
-	margin: 20px 0 10px 0;
-}
-
-.float-left {
-    float: left;
-}
-
-.float-right {
-    float: right;
-}
-
-label {
-    margin: 10px 15px 5px 0;
-}
-
-.checkboxes-box div {
-    margin-top: 15px;
-}
-
-.name-email-style{
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    margin: auto;
-    text-align: center;
-    padding-left: 20px;
-    margin: 0px;
-}
-
-.btn-style{
-    margin-bottom: 10px;
-    border-bottom-color: white;
-    border-bottom-style: solid;
-    border-bottom-width: 10px;
-    padding-bottom: 20px;
-    width: 100%;
-}
-
-#starter-choice, #pizza-choice, #pasta-choice, #mains-choice{
-margin-left: 20px; 
-padding-left: 10px;
-}
-
-
-
-/*-----Contact Form Response Messages-*/
-#mail-ok,
-#mail-nok {
-    
-    text-align: center;
-    display: none;
-}
-
-#mail-ok.visible,
-#mail-nok.visible {
-    
-    display: flex;
-    text-align: center;
-    font-size: 1.625rem;
-    
-}
-
-
-
-textarea.form-control{
-      width: 50%;
-    padding-left: 10px;
-	margin: 0 auto;
-}
 
 /*------Mouse Styling-*/
-#Appetizers,
-#Starters,
-#Sides,
-#pizzaToggle,
-#pastaToggle,
-#mains,
+#Baguettes,
+#Panini,
+#Sald-jp,
+#pastyToggle,
+#srollToggle,
+#Coffee,
+#Tea,
+#Cold-drinks,
 #dessertsToggle,
 #drinksToggle {
     cursor: pointer;
 }
 
+.logo {
+    padding: 10px;
+}

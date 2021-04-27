@@ -1,52 +1,68 @@
 //hover
 
-$("#Appetizers h3").mouseenter(function () {
+$("#Baguettes h3").mouseenter(function () {
     $(this).css('color', 'green');
 });
 
-$("#Appetizers h3").mouseleave(function () {
+$("#Baguettes h3").mouseleave(function () {
     $(this).css('color', 'red');
 });
 
-$("#Starters h3").mouseenter(function () {
+$("#Panini h3").mouseenter(function () {
     $(this).css('color', 'green');
 });
 
-$("#Starters h3").mouseleave(function () {
+$("#Panini h3").mouseleave(function () {
     $(this).css('color', 'red');
 });
 
-$("#Sides h3").mouseenter(function () {
+$("#Sald-jp h3").mouseenter(function () {
     $(this).css('color', 'green');
 });
 
-$("#Sides h3").mouseleave(function () {
-    $(this).css('color', 'red');
-});
-
-
-$("#pizzaToggle h3").mouseenter(function () {
-    $(this).css('color', 'green');
-});
-
-$("#pizzaToggle h3").mouseleave(function () {
-    $(this).css('color', 'red');
-});
-
-$("#pastaToggle h3").mouseenter(function () {
-    $(this).css('color', 'green');
-});
-
-$("#pastaToggle h3").mouseleave(function () {
+$("#Sald-jp h3").mouseleave(function () {
     $(this).css('color', 'red');
 });
 
 
-$("#mains h3").mouseenter(function () {
+$("#pastyToggle h3").mouseenter(function () {
     $(this).css('color', 'green');
 });
 
-$("#mains h3").mouseleave(function () {
+$("#pastyToggle h3").mouseleave(function () {
+    $(this).css('color', 'red');
+});
+
+$("#srollToggle h3").mouseenter(function () {
+    $(this).css('color', 'green');
+});
+
+$("#srollToggle h3").mouseleave(function () {
+    $(this).css('color', 'red');
+});
+
+
+$("#Coffee h3").mouseenter(function () {
+    $(this).css('color', 'green');
+});
+
+$("#Coffee h3").mouseleave(function () {
+    $(this).css('color', 'red');
+});
+
+$("#Tea h3").mouseenter(function () {
+    $(this).css('color', 'green');
+});
+
+$("#Tea h3").mouseleave(function () {
+    $(this).css('color', 'red');
+});
+
+$("#Cold-drinks h3").mouseenter(function () {
+    $(this).css('color', 'green');
+});
+
+$("#Cold-drinks h3").mouseleave(function () {
     $(this).css('color', 'red');
 });
 
@@ -69,34 +85,41 @@ $("#drinksToggle h3").mouseleave(function () {
 
 //toggle
 
-$("#Appetizers h3").click(function () {
-$("#appToggle").slideToggle("slow"); 
+$("#Baguettes h3").click(function () {
+$("#bagToggle").slideToggle("slow"); 
           
 });
 
-$("#Starters h3").click(function () {
-$("#startersToggle").slideToggle("slow"); 
+$("#Panini h3").click(function () {
+$("#PaniniToggle").slideToggle("slow"); 
           
 });
 
-$("#Sides h3").click(function () {
-$("#sidesToggle").slideToggle("slow"); 
+$("#Sald-jp h3").click(function () {
+$("#Sald-jpToggle").slideToggle("slow"); 
           
 });
 
-$("#pizzaToggle h3").click(function () {
-$("#pizzaToggleli").slideToggle("slow"); 
+$("#pastyToggle h3").click(function () {
+$("#pastyToggleli").slideToggle("slow"); 
           
 });
 
-$("#pastaToggle h3").click(function () {
-$("#pastaToggleli").slideToggle("slow"); 
+$("#srollToggle h3").click(function () {
+$("#srollToggleli").slideToggle("slow"); 
           
 });
 
-$("#mains h3").click(function () {
-$("#mainsToggleli1").slideToggle("slow"); 
-$("#mainsToggleli2").slideToggle("slow");          
+$("#Coffee h3").click(function () {
+$("#CoffeeToggleli1").slideToggle("slow"); 
+});
+
+$("#Tea h3").click(function () {
+$("#TeaToggleli1").slideToggle("slow"); 
+});
+
+$("#Cold-drinks h3").click(function () {
+$("#Cold-drinksToggleli1").slideToggle("slow"); 
 });
 
 $("#dessertsToggle h3").click(function () {
