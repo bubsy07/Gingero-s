@@ -24,7 +24,6 @@ $("#Sald-jp h3").mouseleave(function () {
     $(this).css('color', 'red');
 });
 
-
 $("#pastyToggle h3").mouseenter(function () {
     $(this).css('color', 'green');
 });
@@ -40,7 +39,6 @@ $("#srollToggle h3").mouseenter(function () {
 $("#srollToggle h3").mouseleave(function () {
     $(this).css('color', 'red');
 });
-
 
 $("#Coffee h3").mouseenter(function () {
     $(this).css('color', 'green');
@@ -82,32 +80,26 @@ $("#drinksToggle h3").mouseleave(function () {
     $(this).css('color', 'red');
 });
 
-
 //toggle
 
 $("#Baguettes h3").click(function () {
-$("#bagToggle").slideToggle("slow"); 
-          
+$("#bagToggle").slideToggle("slow");          
 });
 
 $("#Panini h3").click(function () {
-$("#PaniniToggle").slideToggle("slow"); 
-          
+$("#PaniniToggle").slideToggle("slow");          
 });
 
 $("#Sald-jp h3").click(function () {
-$("#Sald-jpToggle").slideToggle("slow"); 
-          
+$("#Sald-jpToggle").slideToggle("slow");           
 });
 
 $("#pastyToggle h3").click(function () {
-$("#pastyToggleli").slideToggle("slow"); 
-          
+$("#pastyToggleli").slideToggle("slow");          
 });
 
 $("#srollToggle h3").click(function () {
-$("#srollToggleli").slideToggle("slow"); 
-          
+$("#srollToggleli").slideToggle("slow");           
 });
 
 $("#Coffee h3").click(function () {

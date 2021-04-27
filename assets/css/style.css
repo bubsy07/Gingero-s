@@ -23,8 +23,7 @@ hr{
 }
 
 h3{
-    text-align: center;
-    
+    text-align: center;   
 }
 
 h4 {
@@ -175,13 +174,6 @@ header {
             animation:blinkingText 1.2s infinite;
 }
 
-#come-on span {
-    text-align: center;
-    font-size: 100%;
-    -webkit-animation:blinkingText 1.2s infinite;
-            animation:blinkingText 1.2s infinite;
-}
-
 @-webkit-keyframes blinkingText{
     0%{     color: red;    }
     49%{    color: red; }
@@ -193,6 +185,29 @@ header {
 @keyframes blinkingText{
     0%{     color: red;    }
     49%{    color: red; }
+    60%{    color: transparent; }
+    99%{    color:transparent;  }
+    100%{   color: #000;    }
+}
+
+#come-on span {
+    text-align: center;
+    font-size: 100%;
+    -webkit-animation:blinkingText1 1.2s infinite;
+            animation:blinkingText1 1.2s infinite;
+}
+
+@-webkit-keyframes blinkingText1{
+    0%{     color: green;}
+    49%{    color: green; }
+    60%{    color: transparent; }
+    99%{    color:transparent;  }
+    100%{   color: #000;    }
+}
+
+@keyframes blinkingText1{
+    0%{     color: green;    }
+    49%{    color: green; }
     60%{    color: transparent; }
     99%{    color:transparent;  }
     100%{   color: #000;    }
@@ -250,7 +265,6 @@ out-me h2{
     width: 100%;  
     
 }
-
 
 .menu-style {
     background-color: white;
@@ -360,7 +374,6 @@ list-style-type: none;
     font-family: "Architects Daughter";
 }
 
-
 @media screen and (max-width:800px) {
 #reviews div {
     width: 100%;
@@ -380,17 +393,23 @@ list-style-type: none;
     color: white;
     width: 100%;
     height: 800px;
-
 }
+
 #gingero-contact h1 { 
-    padding-top: 150px;
-    font-size: 225%;
+    padding-top: 125px;
+    font-size: 250%;
     font-family: "Architects Daughter";
 }
 
 #gingero-contact h2, h3 {
     color: white;
     font-family: "Architects Daughter";
+    font-size: 200%; 
+}
+
+#gingero-contact li {
+   font-size: 150%;
+   font-family: "Architects Daughter";   
 }
 
 #gingero-contact a {
@@ -456,9 +475,9 @@ margin: auto;
     color:red;
      font-family: "Architects Daughter";
      font-size: 12px;
-font-size: 100%;
-     
+font-size: 100%;    
 }
+
 #gingero-footer-details a i:hover {
    color: blue;
 }
