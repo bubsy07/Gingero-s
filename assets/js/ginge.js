@@ -5,7 +5,7 @@ $("#Baguettes h3").mouseenter(function () {
 });
 
 $("#Baguettes h3").mouseleave(function () {
-    $(this).css('color', 'red');
+    $(this).css('color', 'black');
 });
 
 $("#Panini h3").mouseenter(function () {
@@ -13,7 +13,7 @@ $("#Panini h3").mouseenter(function () {
 });
 
 $("#Panini h3").mouseleave(function () {
-    $(this).css('color', 'red');
+    $(this).css('color', 'black');
 });
 
 $("#Sald-jp h3").mouseenter(function () {
@@ -21,7 +21,7 @@ $("#Sald-jp h3").mouseenter(function () {
 });
 
 $("#Sald-jp h3").mouseleave(function () {
-    $(this).css('color', 'red');
+    $(this).css('color', 'black');
 });
 
 $("#pastyToggle h3").mouseenter(function () {
@@ -29,7 +29,7 @@ $("#pastyToggle h3").mouseenter(function () {
 });
 
 $("#pastyToggle h3").mouseleave(function () {
-    $(this).css('color', 'red');
+    $(this).css('color', 'black');
 });
 
 $("#srollToggle h3").mouseenter(function () {
@@ -37,7 +37,7 @@ $("#srollToggle h3").mouseenter(function () {
 });
 
 $("#srollToggle h3").mouseleave(function () {
-    $(this).css('color', 'red');
+    $(this).css('color', 'black');
 });
 
 $("#Coffee h3").mouseenter(function () {
@@ -45,7 +45,7 @@ $("#Coffee h3").mouseenter(function () {
 });
 
 $("#Coffee h3").mouseleave(function () {
-    $(this).css('color', 'red');
+    $(this).css('color', 'black');
 });
 
 $("#Tea h3").mouseenter(function () {
@@ -53,7 +53,7 @@ $("#Tea h3").mouseenter(function () {
 });
 
 $("#Tea h3").mouseleave(function () {
-    $(this).css('color', 'red');
+    $(this).css('color', 'black');
 });
 
 $("#Cold-drinks h3").mouseenter(function () {
@@ -61,7 +61,7 @@ $("#Cold-drinks h3").mouseenter(function () {
 });
 
 $("#Cold-drinks h3").mouseleave(function () {
-    $(this).css('color', 'red');
+    $(this).css('color', 'black');
 });
 
 $("#dessertsToggle h3").mouseenter(function () {
@@ -69,7 +69,7 @@ $("#dessertsToggle h3").mouseenter(function () {
 });
 
 $("#dessertsToggle h3").mouseleave(function () {
-    $(this).css('color', 'red');
+    $(this).css('color', 'black');
 });
 
 $("#drinksToggle h3").mouseenter(function () {
@@ -77,7 +77,7 @@ $("#drinksToggle h3").mouseenter(function () {
 });
 
 $("#drinksToggle h3").mouseleave(function () {
-    $(this).css('color', 'red');
+    $(this).css('color', 'black');
 });
 
 //toggle

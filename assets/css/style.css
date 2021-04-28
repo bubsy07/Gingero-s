@@ -61,7 +61,7 @@ header {
 }
 
 #nav-menu a:hover{
-    border-bottom: 1px solid red;
+    border-bottom: 1px solid white;
 }
 
 /*------------------------------------------------------ Navbar */
@@ -69,12 +69,12 @@ header {
 .navbar {
     margin-bottom: 0;
     width: 100%;
-    background-color: green;
+    
     border: 0;
     position: fixed;
     z-index:1;
     padding: 30px 0px 0px 0px;
-    color: red;
+    color: white;
 }
 
 .navbar .navbar-toggler {
@@ -86,7 +86,7 @@ header {
     font-size: 400%;
     margin-left: 25px;
     margin-bottom: 0px;
-    color: red;
+    color: white;
     font-family: "Architects Daughter";
 }
 
@@ -95,7 +95,7 @@ header {
     font-size: 125%;
     margin-left: 175px;
     margin-top: -22px;
-    color: red;
+    color: white;
     font-family: "Architects Daughter";
 }
 
@@ -107,6 +107,10 @@ header {
 }
 }
 
+.header_bg {
+    background: url("../images/beans.png") repeat center center;
+    
+}
 /*----------------------------------------Home image*/
 
 #image-gingero{
@@ -164,6 +168,8 @@ header {
     position: fixed;
     z-index:2;
     top: 0;
+    background: url("../images/beans.png") repeat center center;
+    color: white;
 }
 
 .web-info span {
@@ -175,19 +181,23 @@ header {
 }
 
 @-webkit-keyframes blinkingText{
-    0%{     color: red;    }
-    49%{    color: red; }
+    0%{     color: white;    }
+    49%{    color: white; }
     60%{    color: transparent; }
     99%{    color:transparent;  }
     100%{   color: #000;    }
 }
 
 @keyframes blinkingText{
-    0%{     color: red;    }
-    49%{    color: red; }
+    0%{     color: white;    }
+    49%{    color: white; }
     60%{    color: transparent; }
     99%{    color:transparent;  }
     100%{   color: #000;    }
+}
+
+#come-on {
+    color: black;
 }
 
 #come-on span {
@@ -198,16 +208,16 @@ header {
 }
 
 @-webkit-keyframes blinkingText1{
-    0%{     color: green;}
-    49%{    color: green; }
+    0%{     color: black;}
+    49%{    color: black; }
     60%{    color: transparent; }
     99%{    color:transparent;  }
     100%{   color: #000;    }
 }
 
 @keyframes blinkingText1{
-    0%{     color: green;    }
-    49%{    color: green; }
+    0%{     color: black;    }
+    49%{    color: black; }
     60%{    color: transparent; }
     99%{    color:transparent;  }
     100%{   color: #000;    }
@@ -229,15 +239,15 @@ header {
 
 #name{
     font-size: 100%;
-    color: red;  
+    color: brown; 
 }
 
 #about-me p{
     font-size: 125%;
-      
+    color: black; 
 }
 
-out-me h2{
+#about-me h2{
   font-family: "Architects Daughter";
   
 }
@@ -280,28 +290,28 @@ out-me h2{
 #menu h2, h4, h3 {
      text-align: center; 
      font-family: "Architects Daughter";  
-     color: red;  
+     color: black;  
 }
 #menu h3 {
-    color: red;  
+    color: black;  
 }
 
 #menu h4, p {
-    color: red;  
+    color: black;  
 }
 
 #menu p {
-    color: red;  
+    color: black;  
     font-family: "Architects Daughter"; 
 }
 
 #menu li {
-    color: green; 
+    color: black; 
     font-family: "Architects Daughter"; 
 }
 
 #dessert p {
-   color: green; 
+   color: black; 
 }
 
 /*---------------menu-------------------------------------*/
@@ -357,7 +367,7 @@ list-style-type: none;
 }
 
 #reviews h2 {
-    color: red;
+    color: black;
     text-align: center;
     font-family: "Architects Daughter";
 }
@@ -449,12 +459,12 @@ margin: auto;
 }
 
 #gingero-footer-details{
-    background-color: green;
+    background-color: brown;
     text-align: center;
 }
 
 #gingero-footer-details p, h2, h4{
-        color: red;
+        color: white;
         font-family: "Architects Daughter";
 }
 
@@ -464,7 +474,7 @@ margin: auto;
    -webkit-box-align: center;
        -ms-flex-align: center;
            align-items: center;
-    color: red;
+    color: white;
 }
 
 #gingero-footer-details a {
@@ -472,18 +482,18 @@ margin: auto;
    -webkit-box-align: center;
        -ms-flex-align: center;
            align-items: center;
-    color:red;
+    color:white;
      font-family: "Architects Daughter";
      font-size: 12px;
 font-size: 100%;    
 }
 
 #gingero-footer-details a i:hover {
-   color: blue;
+   color: orange;
 }
 
 #gingero-footer-details a:hover {
-   color:blue;
+   color:orange;
 }
 
 /*------Mouse Styling-*/
