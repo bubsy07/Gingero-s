@@ -67,9 +67,8 @@ header {
 /*------------------------------------------------------ Navbar */
 
 .navbar {
-    margin-bottom: 0;
+    margin-bottom: 0px;
     width: 100%;
-    
     border: 0;
     position: fixed;
     z-index:1;
@@ -84,7 +83,7 @@ header {
 
 .navbar-brand h1{
     font-size: 400%;
-    margin-left: 25px;
+    margin-left: 15px;
     margin-bottom: 0px;
     color: white;
     font-family: "Architects Daughter";
@@ -95,6 +94,7 @@ header {
     font-size: 125%;
     margin-left: 175px;
     margin-top: -22px;
+    margin-bottom: 20px;
     color: white;
     font-family: "Architects Daughter";
 }
@@ -158,17 +158,12 @@ header {
 
 .web-info {
     text-align: center;
-    background-color: lightgrey;
-    border-color: lightgrey;
-    padding: 5px 15px;
-    margin-bottom: 10px;
-    border: 1px solid transparent;
-    border-radius: 0px;
+    padding: 5px 15px 5px 15px;
     width: 100%;
     position: fixed;
     z-index:2;
     top: 0;
-    background: url("../images/beans.png") repeat center center;
+    background-color: black;
     color: white;
 }
 
@@ -509,4 +504,21 @@ font-size: 100%;
 #drinksToggle {
     cursor: pointer;
 }
+
+/*---------------gallery-------------------------------------*/
+ .carousel-inner img {
+    width: 50%;
+    height: 50%;
+  }
+
+ .carousel{
+     padding: 0px 0px 10px 0px;
+ }
+
+ .carousel-control-next, .carousel-control-prev {
+     bottom: 25%;
+     top: 50%;
+ }
+
+
 
